@@ -63,7 +63,7 @@ class OwnerJpaServiceTest {
         Set<Owner> owners = ownerJpaService.findAll();
 
         assertNotNull(owners);
-        assertEquals(0, owners.size());
+        assertEquals(2, owners.size());
     }
 
     @Test
