@@ -31,4 +31,6 @@ public class Owner extends Person {
     private String city;
     private String telephone;
 
+
+
 }
