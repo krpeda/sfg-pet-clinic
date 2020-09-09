@@ -8,9 +8,14 @@ import javax.persistence.Entity;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
 public class PetType extends BaseEntity {
+
+    @Builder
+    public PetType(Long id, String name) {
+        super(id);
+        this.name = name;
+    }
 
     private String name;
 
